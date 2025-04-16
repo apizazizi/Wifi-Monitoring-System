@@ -1,0 +1,67 @@
+/* styles/main.css */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .main-btn,
+  .logout-btn,
+  .back-btn {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .main-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .main-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .logout-btn:hover {
+    background-color: #a71d2a;
+    transform: scale(1.05);
+  }
+  
+  .back-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .back-btn:hover {
+    background-color: #495057;
+    transform: scale(1.05);
+  }
+  
